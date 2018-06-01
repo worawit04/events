@@ -1,0 +1,617 @@
+
+
+/* ==========================================================================
+   Global custom styles starts here
+   ========================================================================== */
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../fonts/sourcesanspro-bold-webfont.eot');
+    src: url('../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('../fonts/sourcesanspro-light-webfont.eot');
+    src: url('../fonts/sourcesanspro-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-light-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-light-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-light-webfont.svg#source_sans_prolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'fjalla_oneregular';
+    src: url('../fonts/fjallaone-regular-webfont.eot');
+    src: url('../fonts/fjallaone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fjallaone-regular-webfont.woff') format('woff'),
+         url('../fonts/fjallaone-regular-webfont.ttf') format('truetype'),
+         url('../fonts/fjallaone-regular-webfont.svg#fjalla_oneregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{ }
+ h1, h2, h3, h4, h5, h6{
+     margin: 0; font-weight: normal;
+}
+h1{font-family: 'fjalla_oneregular';}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+p{color: #869093; font-size: 14px; line-height: 26px;   margin-bottom: 0;}
+.last{padding-bottom: 0;}
+.spacing-t{padding-top: 30px;}
+.spacing-b{padding-bottom: 30px;}
+.spacing-l{padding-left: 30px;}
+.spacing-r{padding-right: 30px;}
+.last{padding-bottom: 0; margin-bottom: 0;}
+.read-more{background: #f85c5e; padding:20px; border-radius: 0px 0px 5px 5px;}
+.read-more a{color: #fff; text-transform: uppercase; font-size: 13px; line-height: 24px;}
+.read-more a:hover{color: #383838; text-decoration: none;}
+.image-spacing{padding-bottom: 25px;}
+.no-border{border-bottom: none !important;}
+ul{margin: 0 !important;}
+
+
+
+
+		/* ===================================
+		   icon styles starts here
+		   ==================================== */
+
+.icon [class^="fw-icon-"]{color: #2d6e84; font-size: 35px;} 
+.icon {
+ width: 80px;
+ margin-top: -20px;
+ 
+ background: #f9b701;
+ position: relative;
+ display: inline-block;
+}
+.icon:before {
+ content: "";
+ position: absolute;
+ top: -25px;
+ left: 0;
+ width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent;
+ border-bottom: 25px solid #f9b701;
+}
+.icon:after {
+ content: "";
+ position: absolute;
+ bottom: -25px; left: 0;
+ width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent;
+ border-top: 25px solid #f9b701;
+}
+
+
+
+		/* ===================================
+		   icon1 styles starts here
+		   ==================================== */
+
+.h-divider{background: url(../img/border-bottom.png) repeat-x 50%; margin-bottom: 60px; margin-top: 20px;}
+.icon1 [class^="fw-icon-"]{color: #bcbcbc; font-size: 25px;}
+.icon1 {
+ width: 50px;
+
+ 
+ background: #2d6e84;
+ position: relative;
+ display: inline-block;
+}
+.icon1:before {
+ content: "";
+ position: absolute;
+ top: -15px;
+ left: 0;
+ width: 0;
+ height: 0;
+ border-left: 25px solid transparent;
+ border-right: 25px solid transparent;
+ border-bottom: 15px solid #2d6e84;
+}
+.icon1:after {
+ content: "";
+ position: absolute;
+ bottom: -15px; left: 0;
+ width: 0;
+ height: 0;
+ border-left: 25px solid transparent;
+ border-right: 25px solid transparent;
+ border-top: 15px solid #2d6e84;
+}
+
+
+		/* ===================================
+		   icon2 styles starts here
+		   ==================================== */
+
+	
+
+
+
+
+		/* ===================================
+		   shape styles starts here
+		   ==================================== */
+.shape img{}
+.shape {
+ width: 80px;
+ margin-top: -20px;
+ 
+ background: #fff;
+ position: relative;
+ display: inline-block;
+}
+.shape:before {
+ content: "";
+ position: absolute;
+ top: -25px;
+ left: 0;
+ width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent;
+ border-bottom: 25px solid #fff;
+}
+.shape:after {
+ content: "";
+ position: absolute;
+ bottom: -25px; left: 0;
+ width: 0;
+ height: 0;
+ border-left: 40px solid transparent;
+ border-right: 40px solid transparent;
+ border-top: 25px solid #fff;
+}
+
+
+
+
+		
+
+
+
+/* ==========================================================================
+   Menu custom styles starts here
+   ========================================================================== */
+	.header-wrapper{background: #2d6e84; position: relative; text-align: center;}
+	.site-name{background: #f9b701; padding: 25px; padding-bottom: 0;}
+	.site-name h1{color: #fff; text-transform: uppercase; font-family: 'fjalla_oneregular'; font-size: 44px; margin-top: 5px;}
+	.logo{display: none;}
+	.menu{text-align: center;}
+	.navbar{display: inline-block; margin-bottom: 0;}
+	.menu .navbar .nav > .active > a{color: #9dc3d0; font-size: 16px; box-shadow: none; text-shadow: none; 
+							background-image: none; background: none;}
+	.menu .navbar .nav > .active > a:hover{color: #f9b701;box-shadow: none; background: none;}
+	.menu .navbar .nav > li{text-transform: uppercase; font-family: 'source_sans_probold';}
+	.menu .navbar .nav > li > a {color: #9dc3d0; font-size: 16px; text-shadow: none; padding: 20px 15px;}
+	.menu .navbar .nav > li > a:hover{color: #f9b701;}
+
+	.banner{text-align: center;  background: url(../img/banner-bg.jpg) repeat;}
+	.banner .carousel{margin-bottom: 0;}
+	.banner .carousel-inner > .item > img{display: inline-block; margin-top: 0px;}
+	.banner .carousel-caption{background: none; top:14%; }
+	.banner .carousel-caption h1{ padding: 10px 5px; display: inline-block; color: #2d6e84; background: #f9b701; font-size: 44px; 
+						 text-transform: uppercase;font-weight: normal; font-family: 'fjalla_oneregular';}
+	.banner .carousel-caption h2{padding: 5px; color: #f9b701; font-size: 34px; line-height: 30px; 
+								font-weight: normal; display: inline-block; background: #2d6e84;font-family: 'source_sans_prolight';}
+	.shadow{}
+	.banner .carousel-caption [class^="fw-icon-"]{padding-bottom: 25px; font-size: 80px; color: #fff;}
+	.banner .carousel-caption .btn{border-radius: 5px; border: 3px solid #fff; background: none; color: #fff; font-size: 18px;
+								 box-shadow: none; text-shadow: none; padding: 10px;  line-height: 16px; text-transform: uppercase; letter-spacing: 1px;}
+	.banner .carousel-caption .btn:hover{background: none; color: #383838; border: 3px solid #383838;}
+	.banner .carousel-control {
+							border: none;
+							top:60%;
+							font-size: 15px;
+							color: #ffffff;
+							background: #465055;
+							line-height: 48px;
+							opacity: 0.5;
+							width: 45px;
+							height: 45px;
+							}
+	
+	.banner .carousel-control:hover{background: #f9b701; color: #2d6e84;}
+
+
+
+/* ==========================================================================
+   Generic custom styles starts here
+   ========================================================================== */
+	.btn{background: #2d6e84; color: #b2b7b8; box-shadow: none; text-shadow: none; border: none; 
+						padding: 8px; text-transform: uppercase;font-family: 'fjalla_oneregular';}
+	.btn:hover{background: #f9b701; color: #2d6e84; transition:all 1s;}
+
+	.featured-blocks{padding: 12px 0;    padding-bottom: 60px;  background: #2d6e84; text-align: center;}
+	.featured-blocks .block{background: #bcbcbc; border-radius: 5px;    padding-bottom: 40px; padding-top: 0;}
+	.featured-blocks .block [class^="fw-icon-"]{}
+	.featured-blocks .block h1{padding-top: 40px; font-size: 24px; color: #2d6e84; font-family: 'fjalla_oneregular'; text-transform: uppercase; padding-bottom: 15px;}
+	.featured-blocks .block p{color: #44535a; font-size: 18px;     color: #696969; font-weight: bold; line-height: 29px; font-family: 'source_sans_proregular';}
+	 
+	.featured-heading{background: #bcbcbc; padding-top: 60px; text-align: center; padding-bottom: 50px; border-bottom: 5px solid #2d6e84;}
+	.featured-heading h1{font-size: 44px; color: #2d6e84; text-transform: uppercase;}
+	.featured-heading h2{font-size: 34px; color: #2d6e84; font-family: 'source_sans_prolight'; text-align: center;}
+	.featured-heading .block{text-align: left;}
+	.featured-heading .block h1{padding-top: 40px; font-size: 24px; color: #2d6e84; font-family: 'fjalla_oneregular'; text-transform: uppercase; padding-bottom: 15px;}
+	.featured-heading .block p{color: #44535a; font-size: 16px; line-height: 24px; font-family: 'source_sans_proregular';}
+	.featured-heading .grid li a{display: inline-block;}
+
+	
+	
+
+
+
+
+	.featured-images{padding: 55px 0; background: #f9b701; text-align: center;}
+	.featured-images h1{font-size: 44px; color: #2d6e84; text-transform: uppercase;font-family: 'fjalla_oneregular';}
+	.featured-images h2{ text-align: center;font-size: 34px; color: #2d6e84; font-family: 'source_sans_prolight';}
+	.featured-images .hh-divider{background: url(../img/hh-divider.png) repeat-x 50%; margin-bottom: 50px; margin-top: 20px; height: 7px;}
+	
+	.featured-images .grid li .user-info ul{margin-top: 15px !important;}
+.featured-images .grid li .user-info ul li{ float: none !important; ; width: 16% ;}
+.featured-images .grid li .user-info ul li a:hover{text-decoration: none !important;}
+	.featured-images .grid li .user-info{text-align: center;}
+	.featured-images .user-info img{padding-bottom: 25px;}
+	.featured-images .user-info h1{padding-bottom: 10px; color: #2a363c; font-size: 18px; line-height: 22px;font-family: 'fjalla_oneregular'; text-transform: uppercase;}
+	.featured-images .user-info p{color: #44535a; font-size: 16px; line-height: 24px; font-family: 'source_sans_proregular'; text-align: center;}
+	.featured-images .user-info ul{margin: 0; margin-top: 15px;}
+	.featured-images .user-info ul li{list-style: none; display: inline-block; float: left;}
+	.featured-images .user-info ul li [class^="fw-icon-"]
+	{	border-radius: 23px;
+		color: #f9b701;
+		font-size: 10px;
+		display: inline-block !important;
+		cursor: pointer;
+		width: 14px !important;
+		height: 14px !important;
+		border-radius: 50%;
+		text-align: center;
+		position: relative;
+		z-index: 1;
+		border: none;
+		padding: 6px;
+		background: #2d6e84;
+		font-size: 14px;
+		margin-bottom: 7px;
+		}
+	.featured-images .user-info ul li [class^="fw-icon-"]:hover{ text-decoration: none; background: #fff; color: #2d6e84; }
+
+
+
+
+/* ==========================================================================
+   sidebar custom styles starts here
+   ========================================================================== */
+	
+	
+
+.site-name {
+ padding: 1px 40px;
+ margin-bottom: -35px;
+ background: #f9b701;
+ position: relative;
+ border-radius: 0 0 4px 4px;
+}
+.menu {
+    height: 65px;
+}
+
+
+.site-name1:after {
+ content: "";
+ position: absolute;
+ bottom: -25px; left: 0;
+ width: 0;
+ height: 0;
+
+ right: 0;
+ border-left: 109px solid transparent;
+ border-right: 120px solid transparent;
+ border-top: 26px solid #f9b701;
+}
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Footer custom styles starts here
+   ========================================================================== */
+	.footer-wrapper{padding-top: 60px; padding-bottom: 40px; background: #2d6e84;}
+	.site-footer{padding-bottom: 40px; background: url(../img/hhh-divider.png) repeat-x 0 100%;}
+	.site-footer .block{}
+	.site-footer .block h1{text-transform: uppercase; color: #f9b701; font-size: 24px; line-height: 30px; font-family: 'fjalla_oneregular'; padding-bottom: 15px;}
+	.site-footer .block ul{margin:0; margin-top: 15px;}
+	.site-footer .block ul li{list-style: none; padding-bottom: 15px; font-family: 'source_sans_proregular';}
+	.site-footer .block ul li a{font-size: 16px;  color: #9dc3d0;}
+	.site-footer .block ul li a:hover{text-decoration: none; color: #fff;}
+	.site-footer .block ul li span{color: #9dc3d0; font-family: 'source_sans_proregular'; font-size: 16px;}
+	.site-footer .block ul li .info{display: inline-block; font-family: 'source_sans_probold'; margin-bottom: 10px;}
+	.site-footer .block ul li .info a{font-size: 18px;}
+
+	.icon2[class^="fw-icon-"]{margin-top: 5px;}
+	.icon2{ border-radius: 23px;
+		color: #2d6e84;
+		font-size: 10px;
+		display: inline-block !important;
+		cursor: pointer;
+		width: 15px !important;
+		height: 14px !important;
+		border-radius: 50%;
+		text-align: center;
+		position: relative;
+		z-index: 1;
+		border: none;
+		padding: 12px;
+
+		background: #f9b701;
+		font-size: 15px;
+		margin-bottom: 7px;
+		float: left;
+		margin-right: 15px;
+		}
+	
+	
+
+	.copy-rights{padding-top: 35px; text-align: center; color: #87b2c1; font-size: 16px; line-height: 24px; font-family: 'source_sans_proregular';}
+	.copy-rights strong a{color: #f9b701; font-size: 16px;  font-family: 'source_sans_probold';}
+	.copy-rights strong a:hover{color: #fff; text-decoration: none;}
+	.copy-rights a{color: #87b2c1;}
+	.copy-rights a:hover{color: #fff; text-decoration: none;}
+
+
+/* ===================================
+   Modal styles starts here
+   ==================================== */
+
+
+.featured-blocks .modal.fade.in {top:30%;}
+.featured-blocks .modal:hover{background: #2d6e84; transition: all 1s;}
+.featured-blocks .modal h2{padding:25px 0; border-top: 1px solid #fff; border-bottom: 1px solid #fff;}
+.featured-blocks .modal h2{color: #fff; text-align: left;}
+.featured-blocks .modal p{color: #fff; text-align: left; padding-top: 10px;}
+.featured-blocks .modal{background: #f9b701; width: 500px; padding: 30px;}
+
+
+.featured-blocks .modal:hover:before{border-bottom: 120px solid #2d6e84; transition: all 1s;}
+.featured-blocks .modal:hover:after{border-top: 120px solid #2d6e84; transition: all 1s;}
+
+
+.featured-blocks .modal:before{content: "";
+ position: absolute;
+ top: -120px;
+ left: 0;
+ width: 0;
+ height: 0;
+ border-left: 280px solid transparent;
+ border-right: 280px solid transparent;
+ border-bottom: 120px solid #f9b701;}
+ .featured-blocks .modal:after{content: "";
+ position: absolute;
+ bottom: -120px; left: 0;
+ width: 0;
+ height: 0;
+ border-left: 280px solid transparent;
+ border-right: 280px solid transparent;
+ border-top: 120px solid #f9b701;}
+
+
+/* ===================================
+   Responsive Tweaks starts here
+   ==================================== */
+	
+   .navbar .btn-navbar{background: #f9b701; color: #2d6e84; text-shadow: none; margin-left: 0; margin-right: 0;
+   					  float: none; margin-bottom: 5px;}
+   .navbar .btn-navbar:hover{color: #2d6e84;}
+   .pagination>li>a, .pagination>li>span { border-radius: 50% !important;margin: 0 5px;}
+
+#scrollContent{
+    height:186px;
+	overflow:auto;
+	position:relative;
+}
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(66, 139, 202, 0.75);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+.more{
+	margin-top: 20px;
+}
+
+.readmore {
+    margin-top: 15px;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+/*----- Social Links -----*/
+.social-nav {
+    padding: 0;
+    list-style: none;
+    margin: -10px 0 0 -10px;
+}
+.social-nav li {
+    float: left;
+    margin: 10px 0 0 10px;
+    list-style: none;
+}
+.social-nav a {
+    display: inline-block;
+    float: left;
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    line-height: 48px;
+    background: #000;
+    position: relative;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+.social-nav a {
+    overflow: hidden;
+    font-size: 26px;
+    border-radius: 4px;
+}
+.social-nav a:hover {
+    background: #fff;
+    text-shadow: 0px 0px #d4d4d4, 1px 1px #d4d4d4, 2px 2px #d4d4d4, 3px 3px #d4d4d4, 4px 4px #d4d4d4, 5px 5px #d4d4d4, 6px 6px #d4d4d4, 7px 7px #d4d4d4, 8px 8px #d4d4d4, 9px 9px #d4d4d4, 10px 10px #d4d4d4, 11px 11px #d4d4d4, 12px 12px #d4d4d4, 13px 13px #d4d4d4, 14px 14px #d4d4d4, 15px 15px #d4d4d4, 16px 16px #d4d4d4, 17px 17px #d4d4d4, 18px 18px #d4d4d4, 19px 19px #d4d4d4, 20px 20px #d4d4d4, 21px 21px #d4d4d4, 22px 22px #d4d4d4, 23px 23px #d4d4d4, 24px 24px #d4d4d4, 25px 25px #d4d4d4, 26px 26px #d4d4d4, 27px 27px #d4d4d4, 28px 28px #d4d4d4, 29px 29px #d4d4d4, 30px 30px #d4d4d4;
+}
+.social-nav .twitter {
+    background: #00ACED;
+    text-shadow: 0px 0px #0087ba, 1px 1px #0087ba, 2px 2px #0087ba, 3px 3px #0087ba, 4px 4px #0087ba, 5px 5px #0087ba, 6px 6px #0087ba, 7px 7px #0087ba, 8px 8px #0087ba, 9px 9px #0087ba, 10px 10px #0087ba, 11px 11px #0087ba, 12px 12px #0087ba, 13px 13px #0087ba, 14px 14px #0087ba, 15px 15px #0087ba, 16px 16px #0087ba, 17px 17px #0087ba, 18px 18px #0087ba, 19px 19px #0087ba, 20px 20px #0087ba, 21px 21px #0087ba, 22px 22px #0087ba, 23px 23px #0087ba, 24px 24px #0087ba, 25px 25px #0087ba, 26px 26px #0087ba, 27px 27px #0087ba, 28px 28px #0087ba, 29px 29px #0087ba, 30px 30px #0087ba;
+}
+.social-nav .twitter:hover {
+    color: #00ACED;
+}
+.social-nav .facebook {
+    background: #3B579D;
+    text-shadow: 0px 0px #2d4278, 1px 1px #2d4278, 2px 2px #2d4278, 3px 3px #2d4278, 4px 4px #2d4278, 5px 5px #2d4278, 6px 6px #2d4278, 7px 7px #2d4278, 8px 8px #2d4278, 9px 9px #2d4278, 10px 10px #2d4278, 11px 11px #2d4278, 12px 12px #2d4278, 13px 13px #2d4278, 14px 14px #2d4278, 15px 15px #2d4278, 16px 16px #2d4278, 17px 17px #2d4278, 18px 18px #2d4278, 19px 19px #2d4278, 20px 20px #2d4278, 21px 21px #2d4278, 22px 22px #2d4278, 23px 23px #2d4278, 24px 24px #2d4278, 25px 25px #2d4278, 26px 26px #2d4278, 27px 27px #2d4278, 28px 28px #2d4278, 29px 29px #2d4278, 30px 30px #2d4278;
+}
+.social-nav .facebook:hover {
+    color: #3B579D;
+}
+.social-nav .google {
+    background: #DD4A3A;
+    text-shadow: 0px 0px #c23122, 1px 1px #c23122, 2px 2px #c23122, 3px 3px #c23122, 4px 4px #c23122, 5px 5px #c23122, 6px 6px #c23122, 7px 7px #c23122, 8px 8px #c23122, 9px 9px #c23122, 10px 10px #c23122, 11px 11px #c23122, 12px 12px #c23122, 13px 13px #c23122, 14px 14px #c23122, 15px 15px #c23122, 16px 16px #c23122, 17px 17px #c23122, 18px 18px #c23122, 19px 19px #c23122, 20px 20px #c23122, 21px 21px #c23122, 22px 22px #c23122, 23px 23px #c23122, 24px 24px #c23122, 25px 25px #c23122, 26px 26px #c23122, 27px 27px #c23122, 28px 28px #c23122, 29px 29px #c23122, 30px 30px #c23122;
+}
+.social-nav .google:hover {
+    color: #DD4A3A;
+}
+.social-nav .linkedin {
+    background: #007BB6;
+    text-shadow: 0px 0px #005983, 1px 1px #005983, 2px 2px #005983, 3px 3px #005983, 4px 4px #005983, 5px 5px #005983, 6px 6px #005983, 7px 7px #005983, 8px 8px #005983, 9px 9px #005983, 10px 10px #005983, 11px 11px #005983, 12px 12px #005983, 13px 13px #005983, 14px 14px #005983, 15px 15px #005983, 16px 16px #005983, 17px 17px #005983, 18px 18px #005983, 19px 19px #005983, 20px 20px #005983, 21px 21px #005983, 22px 22px #005983, 23px 23px #005983, 24px 24px #005983, 25px 25px #005983, 26px 26px #005983, 27px 27px #005983, 28px 28px #005983, 29px 29px #005983, 30px 30px #005983;
+}
+.social-nav .linkedin:hover {
+    color: #007BB6;
+}
+.social-nav .pinterest {
+    background: #CB2026;
+    text-shadow: 0px 0px #9f191e, 1px 1px #9f191e, 2px 2px #9f191e, 3px 3px #9f191e, 4px 4px #9f191e, 5px 5px #9f191e, 6px 6px #9f191e, 7px 7px #9f191e, 8px 8px #9f191e, 9px 9px #9f191e, 10px 10px #9f191e, 11px 11px #9f191e, 12px 12px #9f191e, 13px 13px #9f191e, 14px 14px #9f191e, 15px 15px #9f191e, 16px 16px #9f191e, 17px 17px #9f191e, 18px 18px #9f191e, 19px 19px #9f191e, 20px 20px #9f191e, 21px 21px #9f191e, 22px 22px #9f191e, 23px 23px #9f191e, 24px 24px #9f191e, 25px 25px #9f191e, 26px 26px #9f191e, 27px 27px #9f191e, 28px 28px #9f191e, 29px 29px #9f191e, 30px 30px #9f191e;
+}
+.social-nav .pinterest:hover {
+    color: #CB2026;
+}
+
+.ul .nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  color: #fff;
+  cursor: default;
+  background-color: #f9b701;
+  border: 0px solid #ddd;
+  border-bottom-color: transparent;
+      text-transform: uppercase;
+    font-family: 'source_sans_probold';
+}
+
+form * {
+    border-radius:0 !important;
+}
+
+form > fieldset > legend {
+    font-size:120%;
+}
+
+.test {
+    padding-top: 10px;
+}
+
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+.info {
+    padding-left: 13px;
+}
+
+#tabs {
+    display: inline-block;
+}
+.tabbar {
+    text-align: center;
+}
+.detail2 p {
+    font-size: 16px;
+}
+.location p {
+    font-size: 16px;
+}
